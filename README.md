@@ -1,51 +1,54 @@
 Troca Fácil — Aplicativo Mobile
 
-O projeto consiste no desenvolvimento de uma interface gráfica mobile para uma aplicação de blogging, utilizando React Native. O principal objetivo é oferecer uma aplicação acessível, intuitiva e de fácil navegação, proporcionando uma experiência de usuário fluida e eficiente tanto para docentes (professores) quanto para estudantes.
+Desenvolvimento de uma interface gráfica mobile para uma aplicação de blogging, utilizando React Native. O objetivo é oferecer uma aplicação acessível, intuitiva e de fácil navegação, proporcionando uma experiência de usuário fluida tanto para docentes (professores) quanto para estudantes.
 
 🚀 Funcionalidades Implementadas
- Tela de Login 
 
- Tela Home do Professor
+Tela de Login
 
- Listagem de posts cadastrados
+Tela Home do Professor
 
- Criação de novos posts
+Listagem de posts cadastrados
 
- Edição de posts (em desenvolvimento)
+Criação de novos posts
 
- Exclusão de posts (em desenvolvimento)
+Edição de posts (em desenvolvimento)
 
- Salvamento de posts (em desenvolvimento)
+Exclusão de posts (em desenvolvimento)
 
- Outras telas (em desenvolvimento)
+Salvamento de posts (em desenvolvimento)
 
- 🏗️ Arquitetura da Aplicação
+Outras telas (em desenvolvimento)
 
+🏗️ Arquitetura da Aplicação
+bash
+Copiar
+Editar
 /app
- ├── /components        → Componentes reutilizáveis (PostCard, etc.)
- ├── /screens           → Telas da aplicação
- │    ├── /context      → Context API para gerenciar estado global (PostContext)
- │    ├── /Home         → Tela de listagem dos posts
- │    ├── /CreatePost   → Tela para criação de posts
- │    ├── /EditPost     → Tela para edição (em desenvolvimento)
- │    ├── /Login        → Tela de login
- │    └── _layout.tsx   → Definição do layout principal
- ├── /routes            → Definição de rotas da aplicação (app.routes.tsx)
- └── index.tsx          → Arquivo principal da aplicação
+├── /components           → Componentes reutilizáveis (PostCard, etc.)
+├── /screens              → Telas da aplicação
+│   ├── /context          → Context API para gerenciar estado global (PostContext)
+│   ├── /Home             → Tela de listagem dos posts
+│   ├── /CreatePost       → Tela para criação de posts
+│   ├── /EditPost         → Tela para edição (em desenvolvimento)
+│   ├── /Login            → Tela de login
+│   └── _layout.tsx       → Definição do layout principal
+├── /routes               → Definição de rotas da aplicação (app.routes.tsx)
+└── index.tsx             → Arquivo principal da aplicação
 
- Tecnologias Utilizadas
- 
+🛠️ Tecnologias Utilizadas
+
 React Native
 
 Expo
 
-Context API (gerenciamento de estado)
+Context API (para gerenciamento de estado)
 
 React Navigation
 
 Android Studio (emulador)
 
-Como rodar o projeto:
+⚙️ Setup Inicial — Como rodar o projeto
 
 Clone este repositório:
 
@@ -60,47 +63,67 @@ bash
 Copiar
 Editar
 cd fase04
+
 Instale as dependências:
 
 bash
 Copiar
 Editar
 npm install
+
 Rode o projeto:
 
 bash
 Copiar
 Editar
 npx expo start
-Abra no emulador Android Studio ou escaneie o QR Code no celular com o aplicativo Expo Go.
+
+Abra no emulador do Android Studio ou escaneie o QR Code no celular com o app Expo Go.
 
 💡 Guia de Uso
+
 Acesse a tela de Login (login simples, sem autenticação real).
 
 Na Home, visualize a lista de posts existentes.
 
 Utilize o botão Criar Post para acessar a tela de cadastro.
 
-⚠️ Funcionalidades de Editar, Salvar e Excluir ainda estão em desenvolvimento devido a desafios técnicos durante o desenvolvimento.
+As funcionalidades de Editar, Salvar e Excluir estão em desenvolvimento.
 
+⚠️ Desafios e Aprendizados
 
-Desafios e Aprendizados
-Durante o desenvolvimento, enfrentei diversos desafios, principalmente na implementação das funcionalidades de edição e exclusão de posts. 
+Durante o desenvolvimento, enfrentei diversos desafios, principalmente na implementação das funcionalidades de edição e exclusão de posts.
 
-As principais dificuldades foram:
+Principais dificuldades:
 
-Gerenciamento de estado global: Implementar o contexto para controlar os posts foi um processo desafiador.
+Gerenciamento de estado global: 
 
-Navegação e passagem de dados entre telas: Tive dificuldades na passagem de parâmetros para as telas de edição e detalhes.
+Configurar e manipular o Context API foi desafiador.
 
-Integração com Android Studio e Expo: Erros inesperados na execução do projeto no emulador e conflitos no ambiente de desenvolvimento.
+Navegação e passagem de dados entre telas: 
 
-Apesar dos desafios, esse processo me proporcionou muito aprendizado sobre React Native, Expo, e estruturação de projetos mobile.
+Tive dificuldades na passagem de parâmetros entre telas (como para a tela de edição).
+
+Integração com Android Studio e Expo: 
+
+Enfrentei erros inesperados no ambiente, conflitos de dependências e lentidão no emulador.
+
+Apesar dos desafios, o projeto trouxe muito aprendizado sobre:
+
+Estruturação de projetos mobile;
+
+Conceitos do React Native;
+
+Funcionamento do Expo;
+
+Integração com ferramentas de desenvolvimento mobile.
 
 👩‍💻 Autora
 Dominique Santos
-🚀 GitHub: @dominiquesantos
 
+GitHub: @dominiquesantos
 
-✅ Status
-📌 Em desenvolvimento. Funcionalidades básicas funcionando, melhorias pendentes.
+✅ Status do Projeto
+
+🚧 Em desenvolvimento:
+Funcionalidades básicas estão funcionando. Melhorias, ajustes e complementos ainda estão pendentes.
