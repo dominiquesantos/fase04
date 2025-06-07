@@ -21,9 +21,8 @@ Salvamento de posts (em desenvolvimento)
 Outras telas (em desenvolvimento)
 
 🏗️ Arquitetura da Aplicação
-bash
-Copiar
-Editar
+
+
 /app
 ├── /components           → Componentes reutilizáveis (PostCard, etc.)
 ├── /screens              → Telas da aplicação
@@ -52,30 +51,18 @@ Android Studio (emulador)
 
 Clone este repositório:
 
-bash
-Copiar
-Editar
 git clone https://github.com/dominiquesantos/fase04.git
 
 Acesse a pasta do projeto:
 
-bash
-Copiar
-Editar
 cd fase04
 
 Instale as dependências:
 
-bash
-Copiar
-Editar
 npm install
 
 Rode o projeto:
 
-bash
-Copiar
-Editar
 npx expo start
 
 Abra no emulador do Android Studio ou escaneie o QR Code no celular com o app Expo Go.
